@@ -1,5 +1,49 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #44FFD7;
+}
+
+nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.left {
+  list-style: none;
+  float: left;
+}
+
+.left li {
+  display: inline-block;
+  margin: 25px;
+  background-color: red;
+}
+
+.left li:first-child {
+  margin: 0;
+}
+
+.left li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.right .cw,
+.right .linkedin {
+  padding: 10px;
+  display: inline-block;
+  width: 75px;
 }
 /*# sourceMappingURL=style.css.map */
