@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+$primaryColor:#44ffd7;
+
+nav {
+    background-color:$primaryColor;
+}
+
+.left {
+    list-style: none;
+    li {
+        $secondaryColor:darkgreen;
+        display: inline-block;
+        margin: 25px;
+        }
+    }
